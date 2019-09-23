@@ -1,0 +1,63 @@
+
+<div id="wizard-container" class="mx-auto">
+  <div id="wizard-header">
+    <span>Profile Wizard: </span>
+  </div>
+  <div id="wizard-progress">
+    <ul class="align-center mx-auto">
+      <li class="active nav navbar">
+        <div class="btn btn-success">1 - Personal Details</div>
+      </li>
+      <li class="active nav navbar">
+        <div class="btn btn-success">2 - Contact Details</div>
+
+      </li>
+      <li class="active nav navbar">
+        <div class="btn btn-success">3 - Skills</div>
+      </li>
+      <li class="active nav navbar">
+        <div class="btn btn-primary">4 - Work Experience</div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div id="body" class="mx-auto">
+
+  <div id='header-step'>
+    <strong>Step 4: Work Experience Details</strong>
+  </div>
+
+
+  <div id="content">
+    <div class="form-group row">
+
+      <div class="mx-auto" id='row-content'>
+        <label for="job1">Job 1:</label>
+        <input type="text" id='job1' name="job1">
+      </div>
+    </div>
+
+    <div class="form-group row">
+
+      <div class="mx-auto" id='row-content'>
+        <label for="job2">Job 2:</label>
+        <input type="text" id='job2' name="job2">
+      </div>
+    </div>
+
+    <div class="form-group row">
+
+      <div class="mx-auto" id='row-content'>
+        <label for="job3">Job 3:</label>
+        <i class="fas fa fa-plus-circle fa-2x" id='plus-button'></i>
+        <input type="text" id='job3' name="job3">
+      </div>
+    </div>
+  </div>
+
+  <div class="row" id='buttons-area'>
+    <div class="text-right" id="next-button"><a routerLink="/skills" class="btn btn-primary" id="back">Back</a></div>
+    <div class="text-right" id="next-button"><a routerLink="/wizardFinished" class="btn btn-primary" id="next">Next</a></div>
+  </div>
+</div>

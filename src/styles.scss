@@ -13,9 +13,12 @@
 
   ul {
     width: 50%;
+    text-align: center;
+
   }
   li {
     float: left;
+    justify-content: space-between;
     align-content: center;
     text-align: center;
     word-wrap: normal;
